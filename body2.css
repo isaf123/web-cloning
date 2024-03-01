@@ -1,0 +1,116 @@
+
+/* container relative*/
+.body2{
+  position: relative;
+  border: none;
+  border-radius: 30px;
+  height: 1000px;
+  top: -40px;
+  background-color: white;
+  padding: 100px 240px;
+}
+
+
+@media screen and (max-width:720px) {
+  .body2-danger{
+    height: 1800PX;
+  }
+}
+
+
+/* container 4 box */
+#body2-text{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+#body2-text2{
+  width: 360px;
+}
+
+#body2-text1{
+  font-size: 30px;
+  width: 400px;
+}
+
+/*icon bawah/////*/
+#body2-icon{
+
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 76px;
+}
+
+/* box */
+#body2-icon-1,
+#body2-icon-2,
+#body2-icon-3,
+#body2-icon-4{
+  height: 260px;
+  width: 480px;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+
+#body2-icon-1{
+  border-top-left-radius: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+#body2-icon-2{
+  border-top-right-radius: 40px;
+  text-align: right;
+  position: relative;
+  overflow: hidden;
+}
+
+#body2-icon-3{
+  border-bottom-left-radius: 40px;
+}
+
+#body2-icon-4{
+  border-bottom-right-radius: 40px;
+  text-align: right;
+}
+
+
+.body2-angka{
+  font-weight: 400;
+  font-size: 100px;
+  color:rgb(173, 168, 174);
+  z-index: 10;
+}
+
+.body2-explaining{
+  font-size: 24px;
+  position: relative;
+  z-index: 20;
+}
+
+.body2-box-pic{
+  position: absolute;
+  width: 200px;
+  opacity: .4;
+}
+
+.body2-left-pic{
+  left: 300px;
+  top: 60px;
+  transform: rotate(-45deg);
+}
+
+.body2-right-pic{
+  right: 300px;
+  top: 60px;
+  transform: rotate(45deg);
+}
+
+

@@ -1,0 +1,82 @@
+.body3{
+  position: relative;
+  border: none;
+  border-radius: 30px;
+  height: 1000px;
+  bottom:-10px;
+  background-color:rgb(170, 215, 217);
+  padding-top: 60px;
+}
+
+@media screen and (max-width:1400px) {
+  .body3-danger{
+    bottom: -600px;
+  }
+}
+
+#body3-line1{
+  font-size: 30px;
+  text-align: center;
+  word-spacing: 20px;
+}
+
+/* line2 portofolio show */
+
+#body3-line2{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 90px;
+  padding-bottom: 40px;
+  gap: 30px;
+}
+
+.porto-pic{
+  flex: 1;
+  height: 380px;
+  background-color: rgb(227, 244, 244);
+  border-radius: 20px;
+  padding: 30px 40px;
+  position: relative;
+}
+
+.body3-porto-text1{
+  font-size: 30px;
+  position: relative;
+  z-index: 69;
+  padding: 0;
+
+}
+
+.body3-porto-text2{
+  font-size: 14px;
+  z-index: 22;
+  margin-bottom: 26px;
+}
+
+
+.body3-caontainer-porto{
+  background-color: blue;
+  height: 200px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.body3-container-pic{
+  position: absolute;
+  height: 300px;
+  left: -80px;
+}
+
+.button-body3{
+  position: absolute;
+  top: 300px;
+  left: 76px;
+}
+
+.body3-solo-pic1{
+  top: -40px;
+  width: 440px;
+}
+
+

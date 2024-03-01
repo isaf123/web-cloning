@@ -1,0 +1,88 @@
+
+#body1{
+  height: 600px;
+  background-color: rgb(254, 236, 226);
+  padding-left: 120px;
+  padding-top: 60px;
+}
+
+@media screen and (max-width:640px) {
+  .body1-danger{
+    padding-left: none;
+  }
+}
+
+.body1-text{
+  width: 740px;
+}
+
+@media screen and (max-width:640px) {
+  .body1-text-danger{
+    width: 100px;
+  }
+}
+
+
+.title{
+  font-size: 60px;
+  font-weight: 900;
+  word-spacing: 4px;
+  line-height: 60px;
+  margin-bottom: 40px;
+  flex:3
+}
+
+@media screen and (max-width:640px) {
+  .title-danger{
+    display: block;
+    font-size: 40px;
+  }
+}
+
+
+.body1-par{
+  margin-bottom: 20px;
+}
+
+.body1-button{
+  padding: 10px 18px;
+  background-color: rgb(145, 149, 246);
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.body1-pic{
+  position:relative;
+  width: 400px;
+  top: 200px;
+}
+
+@media screen and (max-width:640px) {
+  .pic-sm-danger{
+    display: none;
+  }
+}
+
+.pic-person-container{
+  width: 600px;
+  height: 300px;
+  position: relative;
+}
+
+@media screen and (max-width:1100px) {
+  .pic-person-container{
+    display: none;
+  }
+}
+
+.pic-person{
+  position: absolute;
+  width: 920px;
+  right: 42px;
+  bottom: -210px;
+}
+
+
+
+
